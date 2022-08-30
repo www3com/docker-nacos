@@ -27,3 +27,4 @@ RUN chmod a+x /nacos -R
 ENTRYPOINT ["sh","/docker-entrypoint.sh"]
 
 EXPOSE 8848
+EXPOSE 9848
